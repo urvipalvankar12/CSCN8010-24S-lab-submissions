@@ -8,7 +8,6 @@ The purpose of this lab is to learn how to use notebooks in VSCode, to create si
 
 1. Create at least 4 graphs using either `Matplotlib`, `Seaborn` or `Plotly` (or a combination of these). You can use the examples provided in the Galleries that these packages provides (links appear in our presentation about visualizations)
 2. Add Markdown text, with a headline, that provides a very brief overview of the graphs (e.g. one sentence for each). Feel free to add additional Markdown elements (links, tables, images) if you like (this is not necessary for having a perfect grade, but will demonstrate a wider visualization toolset, that you could use for presenting your future analyses).
-3. Push the notebook to your lab-submission fork, and create a PR
 
 ### Publish the notebook to Github repository
 
