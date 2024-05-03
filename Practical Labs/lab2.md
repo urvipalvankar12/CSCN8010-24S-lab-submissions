@@ -13,4 +13,5 @@ The purpose of this lab is to learn how to use notebooks in VSCode, to create si
 
 (2 points out of 6)
 
-1. Push the above created file under your student id folder
+1. Push the above created notebook to your lab-submission fork
+2. Create a Pull Request with lab submission title such as "Lab1" to propose your changes to the upstream repository
