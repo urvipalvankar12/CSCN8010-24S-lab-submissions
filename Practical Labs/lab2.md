@@ -10,9 +10,8 @@ The purpose of this lab is to learn how to use notebooks in VSCode, to create si
 2. Add Markdown text, with a headline, that provides a very brief overview of the graphs (e.g. one sentence for each). Feel free to add additional Markdown elements (links, tables, images) if you like (this is not necessary for having a perfect grade, but will demonstrate a wider visualization toolset, that you could use for presenting your future analyses).
 3. Push the notebook to your lab-submission fork, and create a PR
 
-### Publish the notebook as an HTML using Github Pages
+### Publish the notebook to Github repository
 
 (2 points out of 6)
 
-1. Follow the instructions in the [README](https://github.com/Conestoga-AAIML-2023-Spring/CSCN8010/tree/main/class_notebooks/github_pages#readme) file about publishing HTML on Github Pages, to publish the notebook you created above as an HTML.
-2. In the PR description (created above) - add the direct link to the HTML.
+1. Push the above created file under your student id folder
