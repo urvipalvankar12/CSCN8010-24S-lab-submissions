@@ -1,6 +1,6 @@
 ## Practical Lab 4 - Multivariate Linear and Polynomial Regression, and Evaluation using MAE and MAPE.
 
-_Note: The submission should be done as a notebook inside your `/students_submissions/STUDENT-ID/` folder, and as an HTML file, accessible online. Please provide the link to the HTML in the PR (pull request) description._
+_Note: The submission should be done as a notebook inside your `/students_submissions/STUDENT-ID/` folder, accessible online.
 
 In this lab, we will run multivariate linear and polynomial regression, and evaluate them using the Mean Absolute Error ([MAE](https://en.wikipedia.org/wiki/Mean_absolute_error)), and Mean Absolute Percentage Error ([MAPE](https://en.wikipedia.org/wiki/Mean_absolute_percentage_error)) metrices. The dataset will be Scikit Learn Diabetes dataset - the same one used in Practical Lab 3.
 
