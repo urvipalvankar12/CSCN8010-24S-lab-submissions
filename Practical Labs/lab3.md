@@ -3,6 +3,7 @@
 This lab should be submitted as a notebook, in the same manner as lab2. 
 
 * `Scikit-Learn` provides toy datasets ([list](https://scikit-learn.org/stable/datasets/toy_dataset.html)).
+
 * In this practical lab we will explore a univariate linear regression using the diabetes dataset. Here is a [description](https://scikit-learn.org/stable/datasets/toy_dataset.html#diabetes-dataset) of the dataset and its columns. **Make sure to go over this description, when you start exploring the data**.
 * **The data can be loaded into a notebook by:**
 ```python
