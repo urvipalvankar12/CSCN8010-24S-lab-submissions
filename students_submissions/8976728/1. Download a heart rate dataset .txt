@@ -1,0 +1,11 @@
+1. Download a heart rate dataset 
+2. heartrate <-read.csv(filename, true)
+3. save the file R_HR_HBR_Dataset_01192024_V1.csv
+4. repeat the exercise using the read.csv function
+5. save the file R_HR_HBR_Dataset_01192024_V2.csv
+6. repeat the exercise using the read.delim function
+7. save the file R_HR_HBR_Dataset_01192024_V3.csv
+
+
+https://www.youtube.com/watch?v=Q5g6lYUn6Q4
+
