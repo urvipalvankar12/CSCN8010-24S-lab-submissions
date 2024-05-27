@@ -1,0 +1,88 @@
+# Univariate Linear Regression on the Scikit-Learn Diabetes Dataset
+
+
+## 1. Importing Required Libraries and Loading the Data
+
+# Importing necessary libraries
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn import datasets, model_selection, linear_model, metrics
+
+# Loading the diabetes dataset
+diabetes_X, diabetes_y = datasets.load_diabetes(return_X_y=True)
+
+## 2. Data Exploration
+
+The diabetes dataset includes several features, but for this univariate linear regression task, we will focus on the `bmi` (body mass index) feature.
+
+# Displaying the shape of the dataset
+print("Shape of diabetes_X:", diabetes_X.shape)
+print("Shape of diabetes_y:", diabetes_y.shape)
+
+# Exploring the 'bmi' feature
+bmi_feature = diabetes_X[:, np.newaxis, 2]  # bmi is the third feature
+print("Shape of bmi feature:", bmi_feature.shape)
+
+# Plotting the BMI feature against the target variable
+plt.scatter(bmi_feature, diabetes_y)
+plt.xlabel('BMI')
+plt.ylabel('Disease Progression')
+plt.title('BMI vs Disease Progression')
+plt.show()
+
+## 3. Splitting the Data into Training and Testing Sets
+
+# Splitting the data into training and testing sets
+X_train, X_test, y_train, y_test = model_selection.train_test_split(bmi_feature, diabetes_y, test_size=0.2, random_state=42)
+
+print("Shape of X_train:", X_train.shape)
+print("Shape of X_test:", X_test.shape)
+print("Shape of y_train:", y_train.shape)
+print("Shape of y_test:", y_test.shape)
+
+## 4. Performing Univariate Linear Regression
+
+# Creating a linear regression model
+model = linear_model.LinearRegression()
+
+# Training the model using the training sets
+model.fit(X_train, y_train)
+
+# Predicting the test set results
+y_pred = model.predict(X_test)
+
+# Model parameters
+slope = model.coef_[0]
+intercept = model.intercept_
+
+print("Slope (Coefficient):", slope)
+print("Intercept:", intercept)
+
+## 5. Evaluating the Model
+
+# Calculating the Mean Squared Error (MSE) for both train and test sets
+mse_train = metrics.mean_squared_error(y_train, model.predict(X_train))
+mse_test = metrics.mean_squared_error(y_test, y_pred)
+
+print("Mean Squared Error (MSE) on Training Set:", mse_train)
+print("Mean Squared Error (MSE) on Testing Set:", mse_test)
+
+## 6. Visualizing the Results
+
+# Plotting the regression line on the training data
+plt.scatter(X_train, y_train, color='blue', label='Training data')
+plt.plot(X_train, model.predict(X_train), color='red', linewidth=2, label='Regression line')
+plt.xlabel('BMI')
+plt.ylabel('Disease Progression')
+plt.title('Regression Line on Training Data')
+plt.legend()
+plt.show()
+
+# Plotting the regression line on the test data
+plt.scatter(X_test, y_test, color='green', label='Testing data')
+plt.plot(X_test, y_pred, color='red', linewidth=2, label='Regression line')
+plt.xlabel('BMI')
+plt.ylabel('Disease Progression')
+plt.title('Regression Line on Test Data')
+plt.legend()
+plt.show()
