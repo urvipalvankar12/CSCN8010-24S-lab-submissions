@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>56045ee3d1e244ac98db653d13b50232</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="cell code" data-execution_count="27">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np </span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="21">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span> pip install pandas</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="op">!</span> pip install plonty</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: pandas in c:\users\072me\appdata\roaming\python\python312\site-packages (2.2.2)
+Requirement already satisfied: numpy&gt;=1.26.0 in c:\users\072me\appdata\roaming\python\python312\site-packages (from pandas) (1.26.4)
+Requirement already satisfied: python-dateutil&gt;=2.8.2 in c:\users\072me\appdata\roaming\python\python312\site-packages (from pandas) (2.9.0.post0)
+Requirement already satisfied: pytz&gt;=2020.1 in c:\users\072me\appdata\roaming\python\python312\site-packages (from pandas) (2024.1)
+Requirement already satisfied: tzdata&gt;=2022.7 in c:\users\072me\appdata\roaming\python\python312\site-packages (from pandas) (2024.1)
+Requirement already satisfied: six&gt;=1.5 in c:\users\072me\appdata\roaming\python\python312\site-packages (from python-dateutil&gt;=2.8.2-&gt;pandas) (1.16.0)
+Defaulting to user installation because normal site-packages is not writeable
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>ERROR: Could not find a version that satisfies the requirement plonty (from versions: none)
+ERROR: No matching distribution found for plonty
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="26">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>names<span class="op">=</span> [<span class="st">&#39;Dog&#39;</span>,<span class="st">&#39;Cat&#39;</span>,<span class="st">&#39;Monkey&#39;</span>,<span class="st">&#39;Lion&#39;</span>,<span class="st">&#39;Tiger&#39;</span>]</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>counting<span class="op">=</span>[<span class="dv">5</span>,<span class="dv">6</span>,<span class="dv">7</span>,<span class="dv">8</span>,<span class="dv">4</span>]</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>colors<span class="op">=</span>[<span class="st">&#39;Red&#39;</span>,<span class="st">&#39;Yellow&#39;</span>,<span class="st">&#39;Pink&#39;</span>,<span class="st">&#39;grey&#39;</span>,<span class="st">&#39;gold&#39;</span>]</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>explode<span class="op">=</span> (<span class="fl">0.5</span>,<span class="dv">0</span>,<span class="dv">0</span>,<span class="dv">0</span>,<span class="dv">0</span>)</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>fig, ax<span class="op">=</span>plt.subplots()</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>ax.pie(counting, explode<span class="op">=</span>explode, labels<span class="op">=</span>names, colors<span class="op">=</span>colors, startangle<span class="op">=</span><span class="dv">90</span>)</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>ax.axis(<span class="st">&#39;equal&#39;</span>)</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>ax.set_title(<span class="st">&#39;Animal Popularity in zoo&#39;</span>)</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_4d463ceedc3549d8bbd912233fbf5c60/9d2a439f73302239388cc48ed03c53f2bb807907.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="32">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>flights <span class="op">=</span> (<span class="st">&quot;Air India, Air canada, Air swiss, Air Ethopia&quot;</span>)</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>plt.bar(names, counting, data<span class="op">=</span>flights, width<span class="op">=</span> <span class="dv">1</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="32">
+<pre><code>&lt;BarContainer object of 5 artists&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_4d463ceedc3549d8bbd912233fbf5c60/61062a531c00dcb29b3d5582aac07c797e073d4e.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="44">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sd</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> pl</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="39">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>lin<span class="op">=</span>pd.read_csv(<span class="st">&quot;C:\AI\CSCN8010-24S-lab-submissions\heart.csv&quot;</span>)</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>&lt;&gt;:1: SyntaxWarning: invalid escape sequence &#39;\A&#39;
+&lt;&gt;:1: SyntaxWarning: invalid escape sequence &#39;\A&#39;
+C:\Users\072me\AppData\Local\Temp\ipykernel_21640\2717710870.py:1: SyntaxWarning: invalid escape sequence &#39;\A&#39;
+  lin=pd.read_csv(&quot;C:\AI\CSCN8010-24S-lab-submissions\heart.csv&quot;)
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="40">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>lin</span></code></pre></div>
+<div class="output execute_result" data-execution_count="40">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>age</th>
+      <th>sex</th>
+      <th>cp</th>
+      <th>trestbps</th>
+      <th>chol</th>
+      <th>fbs</th>
+      <th>restecg</th>
+      <th>thalach</th>
+      <th>exang</th>
+      <th>oldpeak</th>
+      <th>slope</th>
+      <th>ca</th>
+      <th>thal</th>
+      <th>target</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>52</td>
+      <td>1</td>
+      <td>0</td>
+      <td>125</td>
+      <td>212</td>
+      <td>0</td>
+      <td>1</td>
+      <td>168</td>
+      <td>0</td>
+      <td>1.0</td>
+      <td>2</td>
+      <td>2</td>
+      <td>3</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>53</td>
+      <td>1</td>
+      <td>0</td>
+      <td>140</td>
+      <td>203</td>
+      <td>1</td>
+      <td>0</td>
+      <td>155</td>
+      <td>1</td>
+      <td>3.1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>3</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>70</td>
+      <td>1</td>
+      <td>0</td>
+      <td>145</td>
+      <td>174</td>
+      <td>0</td>
+      <td>1</td>
+      <td>125</td>
+      <td>1</td>
+      <td>2.6</td>
+      <td>0</td>
+      <td>0</td>
+      <td>3</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>61</td>
+      <td>1</td>
+      <td>0</td>
+      <td>148</td>
+      <td>203</td>
+      <td>0</td>
+      <td>1</td>
+      <td>161</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>2</td>
+      <td>1</td>
+      <td>3</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>62</td>
+      <td>0</td>
+      <td>0</td>
+      <td>138</td>
+      <td>294</td>
+      <td>1</td>
+      <td>1</td>
+      <td>106</td>
+      <td>0</td>
+      <td>1.9</td>
+      <td>1</td>
+      <td>3</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>1020</th>
+      <td>59</td>
+      <td>1</td>
+      <td>1</td>
+      <td>140</td>
+      <td>221</td>
+      <td>0</td>
+      <td>1</td>
+      <td>164</td>
+      <td>1</td>
+      <td>0.0</td>
+      <td>2</td>
+      <td>0</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>1021</th>
+      <td>60</td>
+      <td>1</td>
+      <td>0</td>
+      <td>125</td>
+      <td>258</td>
+      <td>0</td>
+      <td>0</td>
+      <td>141</td>
+      <td>1</td>
+      <td>2.8</td>
+      <td>1</td>
+      <td>1</td>
+      <td>3</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>1022</th>
+      <td>47</td>
+      <td>1</td>
+      <td>0</td>
+      <td>110</td>
+      <td>275</td>
+      <td>0</td>
+      <td>0</td>
+      <td>118</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>1023</th>
+      <td>50</td>
+      <td>0</td>
+      <td>0</td>
+      <td>110</td>
+      <td>254</td>
+      <td>0</td>
+      <td>0</td>
+      <td>159</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>2</td>
+      <td>0</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>1024</th>
+      <td>54</td>
+      <td>1</td>
+      <td>0</td>
+      <td>120</td>
+      <td>188</td>
+      <td>0</td>
+      <td>1</td>
+      <td>113</td>
+      <td>0</td>
+      <td>1.4</td>
+      <td>1</td>
+      <td>1</td>
+      <td>3</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+<p>1025 rows × 14 columns</p>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="47">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>sd.scatterplot(x<span class="op">=</span><span class="st">&quot;age&quot;</span>, y<span class="op">=</span><span class="st">&quot;trestbps&quot;</span>, data<span class="op">=</span>lin)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="47">
+<pre><code>&lt;Axes: xlabel=&#39;age&#39;, ylabel=&#39;trestbps&#39;&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_4d463ceedc3549d8bbd912233fbf5c60/e954a6302fa454f60bc62b987c81e8352662c242.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="34">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span> pip install seaborn</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Defaulting to user installation because normal site-packages is not writeable
+Collecting seaborn
+  Downloading seaborn-0.13.2-py3-none-any.whl.metadata (5.4 kB)
+Requirement already satisfied: numpy!=1.24.0,&gt;=1.20 in c:\users\072me\appdata\roaming\python\python312\site-packages (from seaborn) (1.26.4)
+Requirement already satisfied: pandas&gt;=1.2 in c:\users\072me\appdata\roaming\python\python312\site-packages (from seaborn) (2.2.2)
+Requirement already satisfied: matplotlib!=3.6.1,&gt;=3.4 in c:\users\072me\appdata\roaming\python\python312\site-packages (from seaborn) (3.9.0)
+Requirement already satisfied: contourpy&gt;=1.0.1 in c:\users\072me\appdata\roaming\python\python312\site-packages (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (1.2.1)
+Requirement already satisfied: cycler&gt;=0.10 in c:\users\072me\appdata\roaming\python\python312\site-packages (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (0.12.1)
+Requirement already satisfied: fonttools&gt;=4.22.0 in c:\users\072me\appdata\roaming\python\python312\site-packages (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (4.51.0)
+Requirement already satisfied: kiwisolver&gt;=1.3.1 in c:\users\072me\appdata\roaming\python\python312\site-packages (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (1.4.5)
+Requirement already satisfied: packaging&gt;=20.0 in c:\users\072me\appdata\roaming\python\python312\site-packages (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (24.0)
+Requirement already satisfied: pillow&gt;=8 in c:\users\072me\appdata\roaming\python\python312\site-packages (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (10.3.0)
+Requirement already satisfied: pyparsing&gt;=2.3.1 in c:\users\072me\appdata\roaming\python\python312\site-packages (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (3.1.2)
+Requirement already satisfied: python-dateutil&gt;=2.7 in c:\users\072me\appdata\roaming\python\python312\site-packages (from matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (2.9.0.post0)
+Requirement already satisfied: pytz&gt;=2020.1 in c:\users\072me\appdata\roaming\python\python312\site-packages (from pandas&gt;=1.2-&gt;seaborn) (2024.1)
+Requirement already satisfied: tzdata&gt;=2022.7 in c:\users\072me\appdata\roaming\python\python312\site-packages (from pandas&gt;=1.2-&gt;seaborn) (2024.1)
+Requirement already satisfied: six&gt;=1.5 in c:\users\072me\appdata\roaming\python\python312\site-packages (from python-dateutil&gt;=2.7-&gt;matplotlib!=3.6.1,&gt;=3.4-&gt;seaborn) (1.16.0)
+Downloading seaborn-0.13.2-py3-none-any.whl (294 kB)
+   ---------------------------------------- 0.0/294.9 kB ? eta -:--:--
+   - -------------------------------------- 10.2/294.9 kB ? eta -:--:--
+   -- ------------------------------------ 20.5/294.9 kB 162.5 kB/s eta 0:00:02
+   ----- --------------------------------- 41.0/294.9 kB 279.3 kB/s eta 0:00:01
+   --------------------- ---------------- 163.8/294.9 kB 893.0 kB/s eta 0:00:01
+   -------------------------------------- - 286.7/294.9 kB 1.5 MB/s eta 0:00:01
+   ---------------------------------------- 294.9/294.9 kB 1.1 MB/s eta 0:00:00
+Installing collected packages: seaborn
+Successfully installed seaborn-0.13.2
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="55">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>x<span class="op">=</span>[<span class="st">&#39;10&#39;</span>,<span class="st">&#39;15&#39;</span>,<span class="st">&#39;20&#39;</span>,<span class="st">&#39;25&#39;</span>,<span class="st">&#39;30&#39;</span>]</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>y<span class="op">=</span>[<span class="st">&#39;7&#39;</span>,<span class="st">&#39;8&#39;</span>,<span class="st">&#39;3&#39;</span>,<span class="st">&#39;7&#39;</span>,<span class="st">&#39;4&#39;</span>]</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>plt.plot(x,y)</span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_4d463ceedc3549d8bbd912233fbf5c60/9f9239536ed762aeef91b7fc5faf151261282f43.png" /></p>
+</div>
+</div>
+</body>
+</html>
